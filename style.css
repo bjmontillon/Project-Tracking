@@ -12,7 +12,7 @@ body {
 
 .container {
     margin: auto;
-    width: 80%;
+    width: 0;
     overflow: hidden;
 }
 
@@ -48,6 +48,14 @@ header .logo {
 header nav {
     float: right; 
     font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 700;
+}
+
+.wrapper {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+
 }
 
 
