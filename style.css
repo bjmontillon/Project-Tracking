@@ -47,16 +47,9 @@ header nav {
     font-weight: 700;
 }
 
-section .img {
-    z-index: -1;
-}
 
-.wrapper {
-    width: 80%;
-    margin: auto;
-    overflow: hidden;
 
-}
+
 
 
 
