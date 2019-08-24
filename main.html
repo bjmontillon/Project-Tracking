@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" href="style.css" type="text/css">
-  <link rel="stylesheet" href="css/flexboxgrid.css" type="text/css">
+  <link rel="stylesheet" href="media.css" type="text/css">
   <link href="https://fonts.googleapis.com/css?family=Barlow+Condensed&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Barlow&display=swap" rel="stylesheet">
   <title>Frontend Mentor | Project tracking intro component</title>
@@ -33,21 +33,28 @@
       </nav>
   </div>
   </header>
-  <div class="background">
-    <img src="images/illustration-devices.svg" alt="background-image">
-  </div>
   <section>
-    <div class="container">
-    <h4><span class="new">new</span> monograph dashboard</h4>
+      <div class="container">
+    
+  <div class="background">
+    <img src="images/illustration-devices.svg" alt="background-image" width="700" height="400">
+  </div>
+  
+    <div class="wrapper">
+      <div class="content">
+    <h4 style="text-transform: uppercase; word-spacing: 6px;"><span style="border: 5px; color: white; background-color: hsl(230, 29%, 20%);
+    border-radius: 10px; padding: 1px 6px; font-weight: 400;">new</span> <span style="letter-spacing: 2px; color: hsl(230, 29%, 20%); font-weight: 400;">monograph dashboard</span></h4>
     <h1>powerful insights<br>into your team</h1>
     <p>Project planning and time tracking<br>for agile teams</p>
-    <button type="button">schedule a demo</button><span class="preview">to see a live preview</span>
+    <button type="button">schedule a demo</button><span id="preview" style="color: hsl(230, 29%, 20%); letter-spacing:2px;word-spacing:3px;text-transform:uppercase;"> to see a live preview</span>
+  </div>
     </div>
+  </div>
   </section>
-  <footer>
+  <footer style="font-size: 14px; font-weight: 300; color: hsl(230, 29%, 20%);">
     <p class="attribution">
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">BJ Montillon</a>.
+      Coded by <a href="https://github.com/bjmontillon">BJ Montillon</a>.
     </p>
   </footer>
   

@@ -8,12 +8,12 @@ body {
 
 .container {
     margin: auto;
-    width: 80%;
+    width: 100%;
     overflow: hidden;
 }
 
 header {
-    padding: 30px;
+    padding: 50px 150px 30px 150px;
     min-height: 70px;
     
 }
@@ -48,12 +48,46 @@ header nav {
 }
 
 .background {
-    margin-left:20px;
+    margin: 0;
+    padding: 0;
+    float: right;
+    max-width: 700px;
+    height: auto;
+    
+}
+
+
+
+.wrapper {
+    padding-left: 150px;
+    font-weight: 400;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-weight: 700;
+    color: hsl(230, 29%, 20%);
+}
+
+p {
+    color: hsl(230, 29%, 20%);
+    font-weight: 400;
+}
+
+button {
+    background-color: hsl(0, 100%, 68%);
+    color: white;
+    text-transform: uppercase;
+    border: 1px;
+    border-radius: 2px;
+    padding: 10px 20px 10px 20px;
 }
 
 
 
 
-
+footer {
+    margin: 50px 0;
+}
 
 
