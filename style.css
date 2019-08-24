@@ -22,6 +22,7 @@ header a {
     text-decoration: none;
     text-transform: uppercase;
     font-size: 16px;
+    color:  hsl(230, 29%, 20%);
 }
 
 header ul {
@@ -31,10 +32,12 @@ header ul {
 }
 
 header li {
-    
+    padding-left: 50px;
     display: inline;
+}
 
-
+#unstyled {
+    list-style-type: disc; 
 }
 
 header .logo {
